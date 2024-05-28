@@ -1,0 +1,160 @@
+.NavBar-Container{
+    width: 1170px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    place-items: center;
+}
+
+.NavBar-Container .link {
+    
+    text-decoration: none;
+    color: #404040;
+    margin: 15px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    
+}
+
+.header-links{
+    width: 645px;
+    height: 24px;
+    display: flex;
+    gap: 160px;
+}
+
+a.active {
+    border-bottom: 2px solid #808080;
+}
+
+
+.menu-close {
+    display: none;
+}
+.input-cart-wish{
+    display: flex;
+    width: 395px;
+    height: 38px;
+    gap: 24px;
+    place-items: center;
+}
+
+.input-container{
+    width: 243px;
+    height: 38px;
+    display: flex;
+    place-items: center;
+    background-color: #F5F5F5;
+}
+
+.input{
+    width: 211px;
+    height: 24px;
+    border: none;
+    background-color: #F5F5F5;
+    padding: 0 1em;
+}
+
+.input:focus{
+    border: none;
+    outline: none;
+    
+}
+
+.cart-user-wish{
+    width: 128px;
+    height: 32px;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+
+}
+
+.user{
+    position: relative;
+}
+
+
+.user-details{
+    position: absolute;
+    text-align: left;
+    width: 225px;
+    height: 150px;
+    top: 2em;
+    right: 0;
+    background: linear-gradient(90deg,#927A95, #555155);
+    z-index: 1;
+    display: none;   
+    
+}
+
+.user:hover div.user-details{
+    display: block;
+}
+
+.show-info{
+    width: 225px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.user-logo{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+
+.user-logo:hover{
+    background-color: #DB4444;
+}
+
+
+
+.user-logo:hover .aioutlineuseradd{
+    color: white;
+}
+.cart{
+    position: relative;
+}
+
+.cart-items{
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #DB4444;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: x-small;
+}
+
+a.active.user-link{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.user-account, .user-order, .user-logout{
+    display: flex;
+    width: 100%;
+    height: 32px;
+    gap: 16px;
+}
+
+.user-link{
+    color: white;
+}
+
+.signIn{
+    text-align: center;
+    margin-top: 2em;
+}

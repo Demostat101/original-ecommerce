@@ -1,0 +1,215 @@
+.header-phone{
+    display: flex;
+    text-align: center;
+    place-items: center;
+    gap: 15px;
+    color: red;
+}
+
+.second-components{
+    width: 100%;
+    height: 100%;
+}
+.Count-down-component{
+    width: 1170px;
+    height: 103px;
+    position: relative;
+}
+
+.count-down-box{
+    width: 600px;
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
+}
+
+.mobile-logo{
+    border-radius: 2px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    color: red;
+}
+
+.count-down{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.count-down-title{
+    font-size: 10px;
+    font-weight: 700;
+    font: bolder;
+}
+
+.hours, .minutes{
+    padding-left: 30px;
+}
+
+.seconds{
+    padding-left: 25px;
+}
+
+.flash-countdown{
+    display: flex;
+    width: 100%;
+    place-items: center;
+    gap: 180px;
+}
+
+.flash{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.arrow-countdown{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    gap: 20px;
+}
+
+.flash-img{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 350px;
+    
+
+}
+
+.count-images{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    background-color: rgb(252, 251, 251);
+}
+
+.data-container{
+    display: flex;
+    width: 100%;
+    height: 350;
+    margin-top: 2em;
+
+}
+
+.image-holder{
+
+    width: 270px;
+    height: 266px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    position: relative;
+    background-color: rgb(252, 251, 251);
+    
+
+}
+
+.discount{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width: 4em;
+    border-radius: 3px;
+    height: 1.5em;
+    font-size:xx-small;
+    top: 1em;
+    left: 1em;
+    background-color: red;
+    color: white;
+}
+
+.love-eye{
+    position: absolute;
+    display: grid;
+    top: 0.5em;
+    right: 0.5em;
+    height: 4em;
+}
+
+.heart1, .heart2{
+    display: grid;
+    place-items: center;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.add-cart{
+    position: absolute;
+    bottom: 0;
+    width: 270px;
+    height: 3em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.star-reviews{
+    display: flex;
+    gap: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.count-images:hover{
+    transform: scale(1.04);
+    transition: 1s ease-in-out;
+}
+
+/* .data-container:hover{
+    width: 100%;
+}
+
+.data-container:hover div.footer{
+    border: 1px solid hsla(0, 0%, 70%, 0.4);
+   box-shadow: 5px 5px 5px hsla(0, 0%, 70%, 0.4);
+} */
+
+del{
+    margin-left: 7px;
+}
+
+.new-price{
+    color: red;
+}
+
+.flash-title{
+    font-weight: 700;
+}
+
+.rating-star{
+    color: gold;
+}
+
+.all-products{
+    width: 180px;
+    height: 2.5em; 
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.show-all-products{
+    width: 1170px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
