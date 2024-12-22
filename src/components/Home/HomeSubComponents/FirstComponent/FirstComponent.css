@@ -1,4 +1,4 @@
-.first-component{
+/* .first-component{
     width: 100%;
     height: 100%;
     display: flex;
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-top: 2em; */
+    padding-top: 2em;
     border-left: 2px solid #f8f4f4;
     padding-left: 2em; 
 }
@@ -61,7 +61,7 @@
 .circle-indicators{
     display: flex;
     position: absolute;
-    bottom: 3.5em;
+    bottom: 1em;
     right: 28em;
    
 }
@@ -78,6 +78,71 @@
 }
 
 .hide-current-img{
+    display: none;
+}
+
+.inactive-current-indicator {
+    background-color: gray;
+    border: none;
+} */
+
+
+.first-component {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-component {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    border-left: 2px solid #f8f4f4;
+    padding-left: 2em;
+}
+
+.array-display {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-component .img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover; /* This keeps images proportional */
+}
+
+.right-component .image {
+    width: 100%; /* Ensure images take up equal width */
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-arrow {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-component {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 2em;
+}
+
+.hide-current-img {
     display: none;
 }
 

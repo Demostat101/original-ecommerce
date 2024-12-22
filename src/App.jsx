@@ -12,7 +12,7 @@ import SignUp from './components/SignUp/SignUp'
 function App() {
 
   return (
-    <div className='container'>
+    <div className='app-container'>
       <NavBar/>
       <hr style={{width:"100%"}} />
 

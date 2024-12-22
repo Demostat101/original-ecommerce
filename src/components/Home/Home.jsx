@@ -3,15 +3,19 @@ import "./Home.css"
 import React from 'react'
 import FirstComponent from "./HomeSubComponents/FirstComponent/FirstComponent"
 import SecondComponent from "./HomeSubComponents/SecondComponent/SecondComponent"
+import Category from "./HomeSubComponents/category/Category"
+import NewArrival from "./HomeSubComponents/NewArrival/NewArrival"
 
 
 const Home = () => {
 
   return (
-    <div className="home">
+    <main className="home">
       <FirstComponent/>
       <SecondComponent/>
-    </div>
+      <Category/>
+      <NewArrival/>
+    </main>
   )
 }
 
