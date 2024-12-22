@@ -118,7 +118,7 @@
 .right-component .img {
     width: 100%;
     height: 360px;
-    object-fit: cover; /* This keeps images proportional */
+    object-fit:fill; /* This keeps images proportional */
 }
 
 .right-component .image {
